@@ -1,0 +1,12 @@
+{ "IsEncrypted": false,
+ "Values": { 
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=storageprod23;AccountKey=nh8SzrZPb/GP2wbUtEk+CHv8jlESrXGt04uhZgYKcjRE/fabb+B/PCue4DdgoQ2uCO7Z4BNYvOdz+AStbJgDQQ==;EndpointSuffix=core.windows.net", 
+    "FUNCTIONS_WORKER_RUNTIME": "python", 
+    "FUNCTIONS_EXTENSION_VERSION": "~3",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING":"DefaultEndpointsProtocol=https;AccountName=storageprod23;AccountKey=nh8SzrZPb/GP2wbUtEk+CHv8jlESrXGt04uhZgYKcjRE/fabb+B/PCue4DdgoQ2uCO7Z4BNYvOdz+AStbJgDQQ==;EndpointSuffix=core.windows.net", 
+    "WEBSITE_CONTENTSHARE":"funcprod239478",
+    "MyDbConnection":"AccountEndpoint=https://cosprod23.documents.azure.com:443/;AccountKey=pyxhOW8Sg5qQJH1XYLplp1S37m9XRz0ybd3pC2P4MJ82u8tbPzt4hKX3P6qrlDW1tLcvscOpwW7VACDbDMvsQQ==;" ,
+    "AzureWebJobsFeatureFlags":"EnableWorkerIndexing"
+   
+   }
+ }
