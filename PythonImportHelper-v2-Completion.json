@@ -1,0 +1,471 @@
+[
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "load_entry_point",
+        "importPath": "pkg_resources",
+        "description": "pkg_resources",
+        "isExtraImport": true,
+        "detail": "pkg_resources",
+        "documentation": {}
+    },
+    {
+        "label": "load_entry_point",
+        "importPath": "pkg_resources",
+        "description": "pkg_resources",
+        "isExtraImport": true,
+        "detail": "pkg_resources",
+        "documentation": {}
+    },
+    {
+        "label": "load_entry_point",
+        "importPath": "pkg_resources",
+        "description": "pkg_resources",
+        "isExtraImport": true,
+        "detail": "pkg_resources",
+        "documentation": {}
+    },
+    {
+        "label": "load_entry_point",
+        "importPath": "pkg_resources",
+        "description": "pkg_resources",
+        "isExtraImport": true,
+        "detail": "pkg_resources",
+        "documentation": {}
+    },
+    {
+        "label": "load_entry_point",
+        "importPath": "pkg_resources",
+        "description": "pkg_resources",
+        "isExtraImport": true,
+        "detail": "pkg_resources",
+        "documentation": {}
+    },
+    {
+        "label": "logging.config",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "make_response",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Bootstrap",
+        "importPath": "flask_bootstrap",
+        "description": "flask_bootstrap",
+        "isExtraImport": true,
+        "detail": "flask_bootstrap",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "settings",
+        "description": "settings",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "FeedGenerator",
+        "importPath": "feedgen.feed",
+        "description": "feedgen.feed",
+        "isExtraImport": true,
+        "detail": "feedgen.feed",
+        "documentation": {}
+    },
+    {
+        "label": "urljoin",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "AtomFeed",
+        "importPath": "werkzeug.contrib.atom",
+        "description": "werkzeug.contrib.atom",
+        "isExtraImport": true,
+        "detail": "werkzeug.contrib.atom",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 2,
+        "importPath": "NeighborlyFrontEnd.tests.conftest",
+        "description": "NeighborlyFrontEnd.tests.conftest",
+        "peekOfCode": "def client():\n    import neighborly\n    neighborly.app.config['TESTING'] = True\n    return neighborly.app.test_client()",
+        "detail": "NeighborlyFrontEnd.tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "__requires__",
+        "kind": 5,
+        "importPath": "NeighborlyFrontEnd.venv.Scripts.easy_install-3.7-script",
+        "description": "NeighborlyFrontEnd.venv.Scripts.easy_install-3.7-script",
+        "peekOfCode": "__requires__ = 'setuptools==39.1.0'\nimport re\nimport sys\nfrom pkg_resources import load_entry_point\nif __name__ == '__main__':\n    sys.argv[0] = re.sub(r'(-script\\.pyw?|\\.exe)?$', '', sys.argv[0])\n    sys.exit(\n        load_entry_point('setuptools==39.1.0', 'console_scripts', 'easy_install-3.7')()\n    )",
+        "detail": "NeighborlyFrontEnd.venv.Scripts.easy_install-3.7-script",
+        "documentation": {}
+    },
+    {
+        "label": "__requires__",
+        "kind": 5,
+        "importPath": "NeighborlyFrontEnd.venv.Scripts.easy_install-script",
+        "description": "NeighborlyFrontEnd.venv.Scripts.easy_install-script",
+        "peekOfCode": "__requires__ = 'setuptools==39.1.0'\nimport re\nimport sys\nfrom pkg_resources import load_entry_point\nif __name__ == '__main__':\n    sys.argv[0] = re.sub(r'(-script\\.pyw?|\\.exe)?$', '', sys.argv[0])\n    sys.exit(\n        load_entry_point('setuptools==39.1.0', 'console_scripts', 'easy_install')()\n    )",
+        "detail": "NeighborlyFrontEnd.venv.Scripts.easy_install-script",
+        "documentation": {}
+    },
+    {
+        "label": "__requires__",
+        "kind": 5,
+        "importPath": "NeighborlyFrontEnd.venv.Scripts.pip-script",
+        "description": "NeighborlyFrontEnd.venv.Scripts.pip-script",
+        "peekOfCode": "__requires__ = 'pip==10.0.1'\nimport re\nimport sys\nfrom pkg_resources import load_entry_point\nif __name__ == '__main__':\n    sys.argv[0] = re.sub(r'(-script\\.pyw?|\\.exe)?$', '', sys.argv[0])\n    sys.exit(\n        load_entry_point('pip==10.0.1', 'console_scripts', 'pip')()\n    )",
+        "detail": "NeighborlyFrontEnd.venv.Scripts.pip-script",
+        "documentation": {}
+    },
+    {
+        "label": "__requires__",
+        "kind": 5,
+        "importPath": "NeighborlyFrontEnd.venv.Scripts.pip3-script",
+        "description": "NeighborlyFrontEnd.venv.Scripts.pip3-script",
+        "peekOfCode": "__requires__ = 'pip==10.0.1'\nimport re\nimport sys\nfrom pkg_resources import load_entry_point\nif __name__ == '__main__':\n    sys.argv[0] = re.sub(r'(-script\\.pyw?|\\.exe)?$', '', sys.argv[0])\n    sys.exit(\n        load_entry_point('pip==10.0.1', 'console_scripts', 'pip3')()\n    )",
+        "detail": "NeighborlyFrontEnd.venv.Scripts.pip3-script",
+        "documentation": {}
+    },
+    {
+        "label": "__requires__",
+        "kind": 5,
+        "importPath": "NeighborlyFrontEnd.venv.Scripts.pip3.7-script",
+        "description": "NeighborlyFrontEnd.venv.Scripts.pip3.7-script",
+        "peekOfCode": "__requires__ = 'pip==10.0.1'\nimport re\nimport sys\nfrom pkg_resources import load_entry_point\nif __name__ == '__main__':\n    sys.argv[0] = re.sub(r'(-script\\.pyw?|\\.exe)?$', '', sys.argv[0])\n    sys.exit(\n        load_entry_point('pip==10.0.1', 'console_scripts', 'pip3.7')()\n    )",
+        "detail": "NeighborlyFrontEnd.venv.Scripts.pip3.7-script",
+        "documentation": {}
+    },
+    {
+        "label": "get_abs_url",
+        "kind": 2,
+        "importPath": "NeighborlyFrontEnd.app",
+        "description": "NeighborlyFrontEnd.app",
+        "peekOfCode": "def get_abs_url(url):\n    \"\"\" Returns absolute url by joining post url with base url \"\"\"\n    return urljoin(request.url_root, url)\n@app.route('/feeds/')\ndef feeds():\n    feed = AtomFeed(title='All Advertisements feed',\n                    feed_url=request.url, url=request.url_root)\n    response = requests.get(settings.API_URL + '/getAdvertisements')\n    posts = response.json()\n    for key, value in posts.items():",
+        "detail": "NeighborlyFrontEnd.app",
+        "documentation": {}
+    },
+    {
+        "label": "feeds",
+        "kind": 2,
+        "importPath": "NeighborlyFrontEnd.app",
+        "description": "NeighborlyFrontEnd.app",
+        "peekOfCode": "def feeds():\n    feed = AtomFeed(title='All Advertisements feed',\n                    feed_url=request.url, url=request.url_root)\n    response = requests.get(settings.API_URL + '/getAdvertisements')\n    posts = response.json()\n    for key, value in posts.items():\n        print(\"key,value: \" + key + \", \" + value)\n    #     feed.add(post.title,\n    #              content_type='html',\n    #              author= post.author_name,",
+        "detail": "NeighborlyFrontEnd.app",
+        "documentation": {}
+    },
+    {
+        "label": "rss",
+        "kind": 2,
+        "importPath": "NeighborlyFrontEnd.app",
+        "description": "NeighborlyFrontEnd.app",
+        "peekOfCode": "def rss():\n    fg = FeedGenerator()\n    fg.title('Feed title')\n    fg.description('Feed Description')\n    fg.link(href='https://neighborly-client-v1.azurewebsites.net/')\n    response = requests.get(settings.API_URL + '/getAdvertisements')\n    ads = response.json()\n    for a in ads: \n        fe = fg.add_entry()\n        fe.title(a.title)",
+        "detail": "NeighborlyFrontEnd.app",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "NeighborlyFrontEnd.app",
+        "description": "NeighborlyFrontEnd.app",
+        "peekOfCode": "def home():\n    response = requests.get(settings.API_URL + '/getAdvertisements')\n    response2 = requests.get(settings.API_URL + '/getPosts')\n    ads = response.json()\n    posts = response2.json()\n    return render_template(\"index.html\", ads=ads, posts=posts)\n@app.route('/ad/add', methods=['GET'])\ndef add_ad_view():\n    return render_template(\"new_ad.html\")\n@app.route('/ad/edit/<id>', methods=['GET'])",
+        "detail": "NeighborlyFrontEnd.app",
+        "documentation": {}
+    },
+    {
+        "label": "add_ad_view",
+        "kind": 2,
+        "importPath": "NeighborlyFrontEnd.app",
+        "description": "NeighborlyFrontEnd.app",
+        "peekOfCode": "def add_ad_view():\n    return render_template(\"new_ad.html\")\n@app.route('/ad/edit/<id>', methods=['GET'])\ndef edit_ad_view(id):\n    response = requests.get(settings.API_URL + '/getAdvertisement?id=' + id)\n    ad = response.json()\n    return render_template(\"edit_ad.html\", ad=ad)\n@app.route('/ad/delete/<id>', methods=['GET'])\ndef delete_ad_view(id):\n    response = requests.get(settings.API_URL + '/getAdvertisement?id=' + id)",
+        "detail": "NeighborlyFrontEnd.app",
+        "documentation": {}
+    },
+    {
+        "label": "edit_ad_view",
+        "kind": 2,
+        "importPath": "NeighborlyFrontEnd.app",
+        "description": "NeighborlyFrontEnd.app",
+        "peekOfCode": "def edit_ad_view(id):\n    response = requests.get(settings.API_URL + '/getAdvertisement?id=' + id)\n    ad = response.json()\n    return render_template(\"edit_ad.html\", ad=ad)\n@app.route('/ad/delete/<id>', methods=['GET'])\ndef delete_ad_view(id):\n    response = requests.get(settings.API_URL + '/getAdvertisement?id=' + id)\n    ad = response.json()\n    return render_template(\"delete_ad.html\", ad=ad)\n@app.route('/ad/view/<id>', methods=['GET'])",
+        "detail": "NeighborlyFrontEnd.app",
+        "documentation": {}
+    },
+    {
+        "label": "delete_ad_view",
+        "kind": 2,
+        "importPath": "NeighborlyFrontEnd.app",
+        "description": "NeighborlyFrontEnd.app",
+        "peekOfCode": "def delete_ad_view(id):\n    response = requests.get(settings.API_URL + '/getAdvertisement?id=' + id)\n    ad = response.json()\n    return render_template(\"delete_ad.html\", ad=ad)\n@app.route('/ad/view/<id>', methods=['GET'])\ndef view_ad_view(id):\n    response = requests.get(settings.API_URL + '/getAdvertisement?id=' + id)\n    ad = response.json()\n    return render_template(\"view_ad.html\", ad=ad)\n@app.route('/ad/new', methods=['POST'])",
+        "detail": "NeighborlyFrontEnd.app",
+        "documentation": {}
+    },
+    {
+        "label": "view_ad_view",
+        "kind": 2,
+        "importPath": "NeighborlyFrontEnd.app",
+        "description": "NeighborlyFrontEnd.app",
+        "peekOfCode": "def view_ad_view(id):\n    response = requests.get(settings.API_URL + '/getAdvertisement?id=' + id)\n    ad = response.json()\n    return render_template(\"view_ad.html\", ad=ad)\n@app.route('/ad/new', methods=['POST'])\ndef add_ad_request():\n    # Get item from the POST body\n    req_data = {\n        'title': request.form['title'],\n        'city': request.form['city'],",
+        "detail": "NeighborlyFrontEnd.app",
+        "documentation": {}
+    },
+    {
+        "label": "add_ad_request",
+        "kind": 2,
+        "importPath": "NeighborlyFrontEnd.app",
+        "description": "NeighborlyFrontEnd.app",
+        "peekOfCode": "def add_ad_request():\n    # Get item from the POST body\n    req_data = {\n        'title': request.form['title'],\n        'city': request.form['city'],\n        'description': request.form['description'],\n        'email': request.form['email'],\n        'imgUrl': request.form['imgUrl'],\n        'price': request.form['price']\n    }",
+        "detail": "NeighborlyFrontEnd.app",
+        "documentation": {}
+    },
+    {
+        "label": "update_ad_request",
+        "kind": 2,
+        "importPath": "NeighborlyFrontEnd.app",
+        "description": "NeighborlyFrontEnd.app",
+        "peekOfCode": "def update_ad_request(id):\n    # Get item from the POST body\n    req_data = {\n        'title': request.form['title'],\n        'city': request.form['city'],\n        'description': request.form['description'],\n        'email': request.form['email'],\n        'imgUrl': request.form['imgUrl'],\n        'price': request.form['price']\n    }",
+        "detail": "NeighborlyFrontEnd.app",
+        "documentation": {}
+    },
+    {
+        "label": "delete_ad_request",
+        "kind": 2,
+        "importPath": "NeighborlyFrontEnd.app",
+        "description": "NeighborlyFrontEnd.app",
+        "peekOfCode": "def delete_ad_request(id):\n    response = requests.delete(settings.API_URL + '/deleteAdvertisement?id=' + id)\n    if response.status_code == 200:\n        return redirect(url_for('home'))\n# running app\ndef main():\n    print(' ----->>>> Flask Python Application running in development server')\n    app.run(host=settings.SERVER_HOST, port=settings.SERVER_PORT, debug=settings.FLASK_DEBUG)\nif __name__ == '__main__':\n    main()",
+        "detail": "NeighborlyFrontEnd.app",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "NeighborlyFrontEnd.app",
+        "description": "NeighborlyFrontEnd.app",
+        "peekOfCode": "def main():\n    print(' ----->>>> Flask Python Application running in development server')\n    app.run(host=settings.SERVER_HOST, port=settings.SERVER_PORT, debug=settings.FLASK_DEBUG)\nif __name__ == '__main__':\n    main()",
+        "detail": "NeighborlyFrontEnd.app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "NeighborlyFrontEnd.app",
+        "description": "NeighborlyFrontEnd.app",
+        "peekOfCode": "app = Flask(__name__)\nBootstrap(app)\ndef get_abs_url(url):\n    \"\"\" Returns absolute url by joining post url with base url \"\"\"\n    return urljoin(request.url_root, url)\n@app.route('/feeds/')\ndef feeds():\n    feed = AtomFeed(title='All Advertisements feed',\n                    feed_url=request.url, url=request.url_root)\n    response = requests.get(settings.API_URL + '/getAdvertisements')",
+        "detail": "NeighborlyFrontEnd.app",
+        "documentation": {}
+    },
+    {
+        "label": "SERVER_HOST",
+        "kind": 5,
+        "importPath": "NeighborlyFrontEnd.settings",
+        "description": "NeighborlyFrontEnd.settings",
+        "peekOfCode": "SERVER_HOST = '0.0.0.0' # Update this for the appropriate front-end website when up\nSERVER_PORT = 5000\nFLASK_DEBUG = True # Do not use debug mode in prod\n# Flask-Restplus settings\nSWAGGER_UI_DOC_EXPANSION = 'list'\nRESTPLUS_VALIDATE = True\nRESTPLUS_MASK_SWAGGER = False\nRESTPLUS_404_HELP = True\nAPI_VERSION = 'v1'\n#-------- Azure constants",
+        "detail": "NeighborlyFrontEnd.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SERVER_PORT",
+        "kind": 5,
+        "importPath": "NeighborlyFrontEnd.settings",
+        "description": "NeighborlyFrontEnd.settings",
+        "peekOfCode": "SERVER_PORT = 5000\nFLASK_DEBUG = True # Do not use debug mode in prod\n# Flask-Restplus settings\nSWAGGER_UI_DOC_EXPANSION = 'list'\nRESTPLUS_VALIDATE = True\nRESTPLUS_MASK_SWAGGER = False\nRESTPLUS_404_HELP = True\nAPI_VERSION = 'v1'\n#-------- Azure constants\n# API_URL format: \"https://[FUNCTION_APP_NAME_GOES_HERE].azurewebsites.net\"",
+        "detail": "NeighborlyFrontEnd.settings",
+        "documentation": {}
+    },
+    {
+        "label": "FLASK_DEBUG",
+        "kind": 5,
+        "importPath": "NeighborlyFrontEnd.settings",
+        "description": "NeighborlyFrontEnd.settings",
+        "peekOfCode": "FLASK_DEBUG = True # Do not use debug mode in prod\n# Flask-Restplus settings\nSWAGGER_UI_DOC_EXPANSION = 'list'\nRESTPLUS_VALIDATE = True\nRESTPLUS_MASK_SWAGGER = False\nRESTPLUS_404_HELP = True\nAPI_VERSION = 'v1'\n#-------- Azure constants\n# API_URL format: \"https://[FUNCTION_APP_NAME_GOES_HERE].azurewebsites.net\"\n#API_URL = \" https://neighborlyapi.azurewebsites.net/api/\"",
+        "detail": "NeighborlyFrontEnd.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SWAGGER_UI_DOC_EXPANSION",
+        "kind": 5,
+        "importPath": "NeighborlyFrontEnd.settings",
+        "description": "NeighborlyFrontEnd.settings",
+        "peekOfCode": "SWAGGER_UI_DOC_EXPANSION = 'list'\nRESTPLUS_VALIDATE = True\nRESTPLUS_MASK_SWAGGER = False\nRESTPLUS_404_HELP = True\nAPI_VERSION = 'v1'\n#-------- Azure constants\n# API_URL format: \"https://[FUNCTION_APP_NAME_GOES_HERE].azurewebsites.net\"\n#API_URL = \" https://neighborlyapi.azurewebsites.net/api/\"\n# for local host if Azure functions served locally\nAPI_URL = \"https://funcprod23.azurewebsites.net/api\"",
+        "detail": "NeighborlyFrontEnd.settings",
+        "documentation": {}
+    },
+    {
+        "label": "RESTPLUS_VALIDATE",
+        "kind": 5,
+        "importPath": "NeighborlyFrontEnd.settings",
+        "description": "NeighborlyFrontEnd.settings",
+        "peekOfCode": "RESTPLUS_VALIDATE = True\nRESTPLUS_MASK_SWAGGER = False\nRESTPLUS_404_HELP = True\nAPI_VERSION = 'v1'\n#-------- Azure constants\n# API_URL format: \"https://[FUNCTION_APP_NAME_GOES_HERE].azurewebsites.net\"\n#API_URL = \" https://neighborlyapi.azurewebsites.net/api/\"\n# for local host if Azure functions served locally\nAPI_URL = \"https://funcprod23.azurewebsites.net/api\"",
+        "detail": "NeighborlyFrontEnd.settings",
+        "documentation": {}
+    },
+    {
+        "label": "RESTPLUS_MASK_SWAGGER",
+        "kind": 5,
+        "importPath": "NeighborlyFrontEnd.settings",
+        "description": "NeighborlyFrontEnd.settings",
+        "peekOfCode": "RESTPLUS_MASK_SWAGGER = False\nRESTPLUS_404_HELP = True\nAPI_VERSION = 'v1'\n#-------- Azure constants\n# API_URL format: \"https://[FUNCTION_APP_NAME_GOES_HERE].azurewebsites.net\"\n#API_URL = \" https://neighborlyapi.azurewebsites.net/api/\"\n# for local host if Azure functions served locally\nAPI_URL = \"https://funcprod23.azurewebsites.net/api\"",
+        "detail": "NeighborlyFrontEnd.settings",
+        "documentation": {}
+    },
+    {
+        "label": "RESTPLUS_404_HELP",
+        "kind": 5,
+        "importPath": "NeighborlyFrontEnd.settings",
+        "description": "NeighborlyFrontEnd.settings",
+        "peekOfCode": "RESTPLUS_404_HELP = True\nAPI_VERSION = 'v1'\n#-------- Azure constants\n# API_URL format: \"https://[FUNCTION_APP_NAME_GOES_HERE].azurewebsites.net\"\n#API_URL = \" https://neighborlyapi.azurewebsites.net/api/\"\n# for local host if Azure functions served locally\nAPI_URL = \"https://funcprod23.azurewebsites.net/api\"",
+        "detail": "NeighborlyFrontEnd.settings",
+        "documentation": {}
+    },
+    {
+        "label": "API_VERSION",
+        "kind": 5,
+        "importPath": "NeighborlyFrontEnd.settings",
+        "description": "NeighborlyFrontEnd.settings",
+        "peekOfCode": "API_VERSION = 'v1'\n#-------- Azure constants\n# API_URL format: \"https://[FUNCTION_APP_NAME_GOES_HERE].azurewebsites.net\"\n#API_URL = \" https://neighborlyapi.azurewebsites.net/api/\"\n# for local host if Azure functions served locally\nAPI_URL = \"https://funcprod23.azurewebsites.net/api\"",
+        "detail": "NeighborlyFrontEnd.settings",
+        "documentation": {}
+    },
+    {
+        "label": "#API_URL",
+        "kind": 5,
+        "importPath": "NeighborlyFrontEnd.settings",
+        "description": "NeighborlyFrontEnd.settings",
+        "peekOfCode": "#API_URL = \" https://neighborlyapi.azurewebsites.net/api/\"\n# for local host if Azure functions served locally\nAPI_URL = \"https://funcprod23.azurewebsites.net/api\"",
+        "detail": "NeighborlyFrontEnd.settings",
+        "documentation": {}
+    },
+    {
+        "label": "API_URL",
+        "kind": 5,
+        "importPath": "NeighborlyFrontEnd.settings",
+        "description": "NeighborlyFrontEnd.settings",
+        "peekOfCode": "API_URL = \"https://funcprod23.azurewebsites.net/api\"",
+        "detail": "NeighborlyFrontEnd.settings",
+        "documentation": {}
+    }
+]
